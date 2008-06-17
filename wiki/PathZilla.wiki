@@ -1,4 +1,5 @@
 #summary PathZilla is a road network building AI
+#labels Featured
 
 = Introduction =
 
