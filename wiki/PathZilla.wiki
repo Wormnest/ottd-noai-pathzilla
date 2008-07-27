@@ -8,7 +8,7 @@ planning and neat road construction.
 
 == Features ==
  * Network planning using Delaunay triangles
- * Custom A*** pathfinder builds bridges and tunnels
+ * Custom A-star pathfinder builds bridges and tunnels
  * Builds multiple bus stops per town
  * Supports NewGRF vehicles (tested with Zephyris' GRVTS v1.3 and George's Long Vehicles v4)
  * Manages loan repayments and estimates construction costs
