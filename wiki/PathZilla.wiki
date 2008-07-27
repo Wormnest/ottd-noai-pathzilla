@@ -37,7 +37,7 @@ planning and neat road construction.
  * Bug in pathfinder sometimes causes roads not to be connected
 
 = Downloads =
-Version 1 was released on 27/07/2008 andtested against r13837-noai, you can download it [http://ottd-noai-pathzilla.googlecode.com/files/pathzilla_v1.tar here].
+Version 1 was released on 27/07/2008 andtested against r13837-noai, you can download it [http://ottd-noai-pathzilla.googlecode.com/files/pathzilla.tar here].
 
 If you have any questions or comments you can find me on tt-forums.net or you
 can email me at george.weller@gmail.com
