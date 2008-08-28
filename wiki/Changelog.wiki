@@ -1,5 +1,4 @@
 #summary Full change log
-= Changelog=
 
 ==v3 - 16/08/2008==
   * Added save/load support
