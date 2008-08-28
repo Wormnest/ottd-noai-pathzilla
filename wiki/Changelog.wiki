@@ -1,0 +1,22 @@
+#summary Full change log
+= Changelog=
+
+==v3 - 16/08/2008==
+  * Added save/load support
+  * Introduced size limit for service planning data sets, to reduce memory usage and save file size
+  * Added support for AI difficulty settings, which scale work intervals and aggression
+  * Added a 'aggressive' setting. When PathZilla is not aggressive it will try to avoid building stations near to competitors
+  * Fixed bug: Do not try to implement any more services when the vehicle limit has been reached
+==v2 - 11/08/2008==
+  * Vastly improved performance by optimising graph algorithms
+  * Introduced limit on number of targets (towns) that will be included in the master graph, to make very large maps (2048x2048) playable
+  * Changed service selection routine to process one town at a time, further improving performance
+  * No longer allow use of articulated vehicles (temporary fix)
+  * Fixed bug: Do not try to build bus stops adjacent to competitor's stations or on their property
+  * Fixed bug: Do not try to build any bus stops if the local authority rating is too low
+  * Fixed bug: Added check to ensure that the entrance road to a depot has been built
+  * Fixed various other bugs
+  * Changed license to GPL v2
+==v1.1 - 29/07/2008==
+  * Changed require() statements to use cross-platform slashes
+  * Reduced work intervals to make AI more aggressive
