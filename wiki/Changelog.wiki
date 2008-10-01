@@ -1,5 +1,17 @@
 #summary Full change log
 
+==v4 - 01/10/2008==
+  * Improved DTRS support and enabled ARVs where possible
+  * Added support for trams
+  * Added generic cargo support for towns only (i.e. mail)
+  * Improved vehicle selection criteria. Gives more variety with large sets like eGRVTS
+  * Changed fleet size and property management to improve profitability at early dates (pre-1950)
+  * Efficiency improvements on busy maps
+  * Fixed bug: Only connect to an existing road when pathfinding if a connection can be made to its neighbours
+  * Fixed bug: Roads can now cross without joining
+  * Fixed bug: Calculate combined station coverage over a single town correctly
+  * Fixed bug: Don't crash if there are fewer than three towns
+  * Fixed other, minor bugs
 ==v3 - 16/08/2008==
   * Added save/load support
   * Introduced size limit for service planning data sets, to reduce memory usage and save file size
