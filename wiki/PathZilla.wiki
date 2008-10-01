@@ -15,7 +15,7 @@ likely to succeed.
 == Features ==
   * Network planning using graph theory
   * Uses two tiers of pathfinding to improve line re-use
-  * Custom A* pathfinder builds bridges and tunnels
+  * Custom A-star pathfinder builds bridges and tunnels
   * Support for articulated vehicles and trams, where available
   * Builds multiple road stations per town
   * Supports NewGRF vehicles (tested with Zephyris' eGRVTS, George's Long Vehicles v4, and PikkaBird's HOVS)
