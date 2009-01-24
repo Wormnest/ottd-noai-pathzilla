@@ -6,20 +6,20 @@
 PathZilla is a networking AI. The focus of this AI is on high level planning 
 and neat, realistic construction.
 
-To get the best results from PathZilla please activate the advanced setting 
-named "Allow drive-through road stops on town owned roads". PathZilla will 
-still attempt to build trams and ARVs without this setting, but it is less
-likely to succeed.
+To get the best results from PathZilla you are *strongly* advised to activate 
+the advanced setting "Stations" > "Allow drive-through road stops on town owned
+ roads". PathZilla will still function correctly but will need to perform more 
+ demolition in towns.
 
 
 == Features ==
-  * Network planning using graph theory
+  * High-level network planning using graph theory
   * Uses two tiers of pathfinding to improve line re-use
-  * Custom A-star pathfinder builds bridges and tunnels
-  * Support for articulated vehicles and trams, where available
-  * Builds multiple road stations per town
+  * Aesthetic pathfinding builds tram lines alongside roads and honours town grid layouts where applicable
+  * Full support for articulated vehicles and trams, where available
+  * Builds "green belt" around towns to improve local authority rating
   * Supports NewGRF vehicles (tested with Zephyris' eGRVTS, George's Long Vehicles v4, and PikkaBird's HOVS)
-  * Manages loan repayments and estimates construction costs
+  * Builds multiple road stations per town and maintains fleet sizes
   * Supports save/load and difficulty settings
   * Supports passengers and mail
 
@@ -41,16 +41,13 @@ For a full change log please look [http://code.google.com/p/ottd-noai-pathzilla/
   * On the fly terraforming 
   * Build 2-lane highways (once one-way road support is introduced)
   * Re-model poorly laid out towns
-  * Build prettier and more realistic roads
 
 == Known Issues ==
-  * Poor road type detection causes stations to be built over road/tram junctions 
-  * Sometimes attempts to build stations on slopes incorrectly
   * Has a tendency to "wipe-out" towns when the game runs multiple instances of PathZilla, if 'aggressive' is set on
   * Does not include airports in competitor check for aggression setting 
 
 == Downloads ==
-Version 4 was released on 01/10/2008 and tested against r14425-noai, you can download it [http://ottd-noai-pathzilla.googlecode.com/files/pathzilla.tar here].
+Version 5 was released on 24/01/2009 and tested against r15235, you can download it [http://ottd-noai-pathzilla.googlecode.com/files/pathzilla.tar here].
 
 If you have any questions or comments you can find me on tt-forums.net or you
 can email me at george.weller@gmail.com
