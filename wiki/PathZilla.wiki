@@ -3,13 +3,9 @@
 
 = Introduction =
 
-PathZilla is a networking AI. The focus of this AI is on high level planning 
-and neat, realistic construction.
+PathZilla is a networking AI. The focus of this AI is on high level planning and neat, realistic construction.
 
-To get the best results from PathZilla you are *strongly* advised to activate 
-the advanced setting "Stations" > "Allow drive-through road stops on town owned
- roads". PathZilla will still function correctly but will need to perform more 
- demolition in towns.
+To get the best results from PathZilla you are *strongly* advised to activate the advanced setting "Stations" > "Allow drive-through road stops on town owned roads". PathZilla will still function correctly but will need to perform more demolition in towns.
 
 
 == Features ==
