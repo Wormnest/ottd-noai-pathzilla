@@ -1,5 +1,20 @@
 #summary Full change log
 
+==v5 - 24/01/2009==
+  * Changed to library pathfinder (with modifications)
+  * Updated to latest API changes
+  * Build depots in towns rather than in the middle of roads
+  * Split different road types where possible to reduce congestion
+  * Honour 2x2/3x3 town grid layouts where possible
+  * Re-wrote station placement to be more flexible
+  * Maintain fleet sizes based on waiting cargo
+  * Enable bribing of town authority
+  * Build trees around a town to improve local authority rating
+  * Re-attempt pathfinding if construction fails
+  * Don't build tunnels if funds are too low
+  * Fixed bug: First order was not updated
+  * Fixed bug: Don't try to compute shortest paths if there are less than two nodes
+  * Fixed bug: Crash when adding vehicles to service after load
 ==v4 - 01/10/2008==
   * Improved DTRS support and enabled ARVs where possible
   * Added support for trams
