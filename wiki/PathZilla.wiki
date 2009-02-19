@@ -5,11 +5,11 @@
 
 PathZilla is a networking AI. The focus of this AI is on high level planning and neat, realistic construction.
 
-To get the best results from PathZilla you are *strongly* advised to activate the advanced setting "Stations" > "Allow drive-through road stops on town owned roads". PathZilla will still function correctly but will need to perform more demolition in towns.
+To get the best results from PathZilla you are *strongly* advised to activate the advanced setting "Stations" > "Allow drive-through road stops on town owned roads". The AI will still function correctly but will need to perform more demolition in towns and so reduce its local authority rating faster.
 
 
 == Features ==
-Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Changelog here] for a more in depth look at PathZilla's features.
+Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Changelog here] for a more in depth look at the more notable features.
   * High-level network planning using graph theory
   * Uses two tiers of pathfinding to improve line re-use
   * Aesthetic pathfinding builds tram lines alongside roads and honours town grid layouts where applicable
