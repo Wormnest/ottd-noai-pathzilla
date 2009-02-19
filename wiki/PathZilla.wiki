@@ -9,7 +9,7 @@ To get the best results from PathZilla you are *strongly* advised to activate th
 
 
 == Features ==
-Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Changelog here] for a more in depth look at the more notable features.
+Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Features here] for a more in depth look at the more notable features.
   * High-level network planning using graph theory
   * Uses two tiers of pathfinding to improve line re-use
   * Aesthetic pathfinding builds tram lines alongside roads and honours town grid layouts where applicable
