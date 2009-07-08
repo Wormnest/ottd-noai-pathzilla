@@ -1,5 +1,21 @@
 #summary Full change log
 
+==v6 - 08/07/2009==
+  * Added support for primary industries
+  * Added support for NewGRF house sets
+  * Improved 2x2/3x3 town grid handling
+  * Construction of windy "country lanes" at early dates and in small towns
+  * Improved station and fleet size management
+  * Added configuration option for amount of traffic to generate
+  * Limits on fleet sizes to reduce incidence of grid-lock
+  * Allow AI to sell vehicles from unprofitable services
+  * Better handling of construction in traffic
+  * Improved accuracy of triangulation graph
+  * Reduce initial processing steps to allow AI to start faster
+  * Build fewer stations initially
+  * Better handling of failure and error conditions when creating services
+  * Fixed bug: Crash when there are too few towns for a tram route
+  * Many other bug fixes
 ==v5 - 24/01/2009==
   * Changed to library pathfinder (with modifications)
   * Updated to latest API changes
