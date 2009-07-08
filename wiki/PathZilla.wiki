@@ -28,9 +28,10 @@ Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Features here] fo
   * Full support for articulated vehicles and trams, where available
   * Builds "green belt" around towns to improve local authority rating
   * Supports NewGRF vehicles (tested with Zephyris' eGRVTS, George's Long Vehicles v4, and PikkaBird's HOVS)
+  * Supports NewGRF house and industry sets (tested with TTRS, George's ECS Vectors and PikkaBird's PBI)
   * Builds multiple road stations per town and maintains fleet sizes
   * Supports save/load and difficulty settings
-  * Supports passengers and mail
+  * Supports all primary industries
 
 == Changelog ==
 For a full change log please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Changelog here].
