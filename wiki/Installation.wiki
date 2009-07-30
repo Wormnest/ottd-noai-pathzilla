@@ -1,0 +1,39 @@
+#summary How to download and install PathZilla
+
+= Installation =
+
+There are two ways to obtain a copy of PathZilla. Once PathZilla has been downloaded correctly the game must be configured correctly so that you can play with PathZilla.
+
+== In-Game Download ==
+
+If you have an internet connection on the machine on which you will play, the easiest way to install PathZilla is via the in-game content download service. From the main menu select "Check Online Content"
+
+http://ottd-noai-pathzilla.googlecode.com/files/step1.png
+
+Then in the content downloading window select PathZilla by ticking the box next to it, and then click the "Download" button.
+
+http://ottd-noai-pathzilla.googlecode.com/files/step2b.png
+
+This will automatically download any AI libaries that are required too and install them for you.
+
+http://ottd-noai-pathzilla.googlecode.com/files/step2c.png
+
+== Direct Download ==
+
+Alternatively you can download PathZilla with your browser and install it manually. In Windows this must be added to the folder <My Documents>\OpenTTD\content_download\ai.
+
+== Playing with PathZilla ==
+
+Once PathZilla has been downloaded it must be added as a competitor for you to play against it. From the main menu select "AI Settings"
+
+http://ottd-noai-pathzilla.googlecode.com/files/step3.png
+
+Ensure that "Maximum no. of competitors" is at least 1. Then select the slot you want PathZilla to play in and clickm "Select AI"
+
+http://ottd-noai-pathzilla.googlecode.com/files/step4a.png
+
+Choose PathZilla from the list and click "Accept"
+
+http://ottd-noai-pathzilla.googlecode.com/files/step4b.png
+
+Optionally you can then configure the AI settings.
