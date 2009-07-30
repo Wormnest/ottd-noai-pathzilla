@@ -36,4 +36,4 @@ Choose PathZilla from the list and click "Accept"
 
 http://ottd-noai-pathzilla.googlecode.com/files/step4b.png
 
-Optionally you can then configure the AI [settings].
+Optionally you can then configure the AI [Settings settings].
