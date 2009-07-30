@@ -15,7 +15,7 @@ to build a complete network and turn a profit.
 
 == Settings ==
 Please look [Settings here] for more details on settings and how to apply them.
-   * Planning speed of AI
+  * Planning speed of AI
   * Compete aggressively with other players
   * Level of traffic the AI should generate
   * Route cargo through towns
