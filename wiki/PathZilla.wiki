@@ -7,14 +7,17 @@ PathZilla is a networking AI. The focus of this AI is on high level planning and
 
 To get the best results from PathZilla you are *strongly* advised to activate the advanced setting "Stations" > "Allow drive-through road stops on town owned roads". The AI will still function correctly but will need to perform more demolition in towns and so reduce its local authority rating faster.
 
-The AI has a number of settings which the user should change to their personal 
-preference. If desired, the player will find a less challenging opponent if  
-setting planning speed to very slow, turning aggression off, and setting 
-traffic to low. Regardless of these settings though, the AI will always attempt
-to build a complete network and turn a profit.
+The preferred method to install PathZilla is via the in-game content downloading service. For help with installing or playing with PathZilla, please look [Installation here].
 
 == Settings ==
-Please look [Settings here] for more details on settings and how to apply them.
+The AI has a number of settings which the user should change to their personal 
+preference. Please look [Settings here] for more details on settings and how to apply them.
+
+If desired, the player will find a less challenging opponent if  
+setting planning speed to very slow, turning aggression off, and setting 
+traffic to low. Regardless of these settings though, the AI will always attempt
+to build a complete network and turn a profit. Settings include...
+
   * Planning speed of AI
   * Compete aggressively with other players
   * Level of traffic the AI should generate
