@@ -14,14 +14,15 @@ traffic to low. Regardless of these settings though, the AI will always attempt
 to build a complete network and turn a profit.
 
 == Settings ==
-  * Planning speed - Governs how much time the AI will wait between actions. If set to 'Fastest', the AI will not wait at all.
-  * Compete aggressively - If set off, the AI will consider competitors stations and services when judging how well serviced a town or industry is, and will not attempt to build close to their stations
-  * Level of traffic - Governs the fleet size estimates and limits. A higher setting will allow the AI to build more vehicles
-  * Route cargo through towns - If set on, the AI will link industries to their nearest towns if applicable, otherwise it will link industries  directly together
-  * Build windy lanes - If set on, the AI will makes its roads follow the terrain, giving them a more natural "windy" appearance. This is applied to all roads before 1950, and to roads between small towns without 2x2/3x3 grids before 1990 
+Please look [Settings here] for more details on settings and how to apply them.
+   * Planning speed of AI
+  * Compete aggressively with other players
+  * Level of traffic the AI should generate
+  * Route cargo through towns
+  * Build windy coujntry lanes in rural towns
 
 == Features ==
-Please look [http://code.google.com/p/ottd-noai-pathzilla/wiki/Features here] for a more in depth look at the more notable features.
+Please look [Features here] for an in-depth look at the more notable features.
   * High-level network planning using graph theory
   * Uses two tiers of pathfinding to improve line re-use
   * Aesthetic pathfinding builds tram lines alongside roads and honours town grid layouts where applicable
