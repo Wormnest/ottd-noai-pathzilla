@@ -1,4 +1,5 @@
 #summary How to download and install PathZilla
+#labels Featured
 
 = Installation =
 
