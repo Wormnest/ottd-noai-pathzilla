@@ -1,0 +1,59 @@
+# Introduction #
+
+PathZilla is a networking AI. The focus of this AI is on high level planning and neat, realistic construction.
+
+To get the best results from PathZilla you are **strongly** advised to activate the advanced setting "Stations" > "Allow drive-through road stops on town owned roads". The AI will still function correctly but will need to perform more demolition in towns and so reduce its local authority rating faster.
+
+The preferred method to install PathZilla is via the in-game content downloading service. For help with installing or playing with PathZilla, please look [here](Installation.md).
+
+## Settings ##
+The AI has a number of settings which the user should change to their personal
+preference. Please look [here](Settings.md) for more details on settings and how to apply them.
+
+If desired, the player will find a less challenging opponent if
+setting planning speed to very slow, turning aggression off, and setting
+traffic to low. Regardless of these settings though, the AI will always attempt
+to build a complete network and turn a profit. Settings include...
+
+  * Planning speed of AI
+  * Compete aggressively with other players
+  * Level of traffic the AI should generate
+  * Route cargo through towns
+  * Build windy coujntry lanes in rural towns
+
+## Features ##
+Please look [here](Features.md) for an in-depth look at the more notable features.
+  * High-level network planning using graph theory
+  * Uses two tiers of pathfinding to improve line re-use
+  * Aesthetic pathfinding builds tram lines alongside roads and honours town grid layouts where applicable
+  * Full support for articulated vehicles and trams, where available
+  * Builds "green belt" around towns to improve local authority rating
+  * Supports NewGRF vehicles (tested with Zephyris' eGRVTS, George's Long Vehicles v4, and PikkaBird's HOVS)
+  * Supports NewGRF house and industry sets (tested with TTRS, George's ECS Vectors and PikkaBird's PBI)
+  * Builds multiple road stations per town and maintains fleet sizes
+  * Supports save/load and difficulty settings
+  * Supports all primary industries
+
+## Changelog ##
+For a full change log please look [here](http://code.google.com/p/ottd-noai-pathzilla/wiki/Changelog).
+
+## To Do ##
+  * Expand and upgrade busy stations
+  * Upgrade and replace old vehicles
+
+## Wish List ##
+  * Rail, aircraft, and ship support
+  * On the fly terraforming
+  * Build 2-lane highways (once one-way road support is introduced)
+  * Re-model poorly laid out towns
+
+## Known Issues ##
+  * Has a tendency to "wipe-out" towns when the game runs multiple instances of PathZilla, if 'aggressive' is set on
+  * Does not include airports in competitor check for aggression setting
+  * May handle tourists incorrectly where towns are directly adjacent
+
+## Downloads ##
+Version 5 was released on 24/01/2009 and tested against [r15235](https://code.google.com/p/ottd-noai-pathzilla/source/detail?r=15235), you can download it [here](http://ottd-noai-pathzilla.googlecode.com/files/pathzilla.tar).
+
+If you have any questions or comments you can find me on tt-forums.net or you
+can email me at george.weller@gmail.com

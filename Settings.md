@@ -1,0 +1,27 @@
+# Settings #
+
+PathZilla is designed to be highly configurable so that you can choose how you want to play. You can make the AI more or less difficult to play against, or tweak some of the features to your personal preferences.
+
+## How to Apply Settings ##
+
+From the main menu select "AI Settings"
+
+![http://ottd-noai-pathzilla.googlecode.com/files/step3.png](http://ottd-noai-pathzilla.googlecode.com/files/step3.png)
+
+Select the instace of PathZilla you wish to configure and click "Configure"
+
+![http://ottd-noai-pathzilla.googlecode.com/files/step5.png](http://ottd-noai-pathzilla.googlecode.com/files/step5.png)
+
+The parameters are set per AI, not globally, and they will only be applied if you select PathZilla specifically and not as a random AI.
+
+## Parameters ##
+
+The default values of each parameter depend on the difficulty level The individual settings are described below.
+
+![http://ottd-noai-pathzilla.googlecode.com/files/settings_v6.png](http://ottd-noai-pathzilla.googlecode.com/files/settings_v6.png)
+
+  * Planning speed - Governs how much time the AI will wait between actions. If set to 'Fastest', the AI will not wait at all.
+  * Compete aggressively - If set off, the AI will consider competitors stations and services when judging how well serviced a town or industry is, and will not attempt to build close to their stations
+  * Level of traffic - Governs the fleet size estimates and limits. A higher setting will allow the AI to build more vehicles
+  * Route cargo through towns - If set on, the AI will link industries to their nearest towns if applicable, otherwise it will link industries directly together
+  * Build windy lanes - If set on, the AI will makes its roads follow the terrain, giving them a more natural "windy" appearance. This is applied to all roads before 1950, and to roads between small towns without 2x2/3x3 grids before 1990

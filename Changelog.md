@@ -1,0 +1,62 @@
+## v6 - 08/07/2009 ##
+  * Added support for primary industries
+  * Added support for NewGRF house sets
+  * Improved 2x2/3x3 town grid handling
+  * Construction of windy "country lanes" at early dates and in small towns
+  * Improved station and fleet size management
+  * Added configuration option for amount of traffic to generate
+  * Limits on fleet sizes to reduce incidence of grid-lock
+  * Allow AI to sell vehicles from unprofitable services
+  * Better handling of construction in traffic
+  * Improved accuracy of triangulation graph
+  * Reduce initial processing steps to allow AI to start faster
+  * Build fewer stations initially
+  * Better handling of failure and error conditions when creating services
+  * Fixed bug: Crash when there are too few towns for a tram route
+  * Many other bug fixes
+## v5 - 24/01/2009 ##
+  * Changed to library pathfinder (with modifications)
+  * Updated to latest API changes
+  * Build depots in towns rather than in the middle of roads
+  * Split different road types where possible to reduce congestion
+  * Honour 2x2/3x3 town grid layouts where possible
+  * Re-wrote station placement to be more flexible
+  * Maintain fleet sizes based on waiting cargo
+  * Enable bribing of town authority
+  * Build trees around a town to improve local authority rating
+  * Re-attempt pathfinding if construction fails
+  * Don't build tunnels if funds are too low
+  * Fixed bug: First order was not updated
+  * Fixed bug: Don't try to compute shortest paths if there are less than two nodes
+  * Fixed bug: Crash when adding vehicles to service after load
+## v4 - 01/10/2008 ##
+  * Improved DTRS support and enabled ARVs where possible
+  * Added support for trams
+  * Added generic cargo support for towns only (i.e. mail)
+  * Improved vehicle selection criteria. Gives more variety with large sets like eGRVTS
+  * Changed fleet size and property management to improve profitability at early dates (pre-1950)
+  * Efficiency improvements on busy maps
+  * Fixed bug: Only connect to an existing road when pathfinding if a connection can be made to its neighbours
+  * Fixed bug: Roads can now cross without joining
+  * Fixed bug: Calculate combined station coverage over a single town correctly
+  * Fixed bug: Don't crash if there are fewer than three towns
+  * Fixed other, minor bugs
+## v3 - 16/08/2008 ##
+  * Added save/load support
+  * Introduced size limit for service planning data sets, to reduce memory usage and save file size
+  * Added support for AI difficulty settings, which scale work intervals and aggression
+  * Added a 'aggressive' setting. When PathZilla is not aggressive it will try to avoid building stations near to competitors
+  * Fixed bug: Do not try to implement any more services when the vehicle limit has been reached
+## v2 - 11/08/2008 ##
+  * Vastly improved performance by optimising graph algorithms
+  * Introduced limit on number of targets (towns) that will be included in the master graph, to make very large maps (2048x2048) playable
+  * Changed service selection routine to process one town at a time, further improving performance
+  * No longer allow use of articulated vehicles (temporary fix)
+  * Fixed bug: Do not try to build bus stops adjacent to competitor's stations or on their property
+  * Fixed bug: Do not try to build any bus stops if the local authority rating is too low
+  * Fixed bug: Added check to ensure that the entrance road to a depot has been built
+  * Fixed various other bugs
+  * Changed license to GPL v2
+## v1.1 - 29/07/2008 ##
+  * Changed require() statements to use cross-platform slashes
+  * Reduced work intervals to make AI more aggressive
